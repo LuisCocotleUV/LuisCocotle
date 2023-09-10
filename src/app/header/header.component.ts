@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
     .subscribe((data: any) => {
       console.log(data);
       //alert(data);
-      this.name = data.name:
+      this.name = data.name;
       this.titulos = data.titulos;
       this.mision = data.mision;
       this.foto = data.foto;
